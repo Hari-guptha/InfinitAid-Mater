@@ -1,0 +1,238 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+
+#NavBar{
+    padding: 20px 5%;
+    height: 10%;
+    display: flex;
+    background-color: #386BDF;
+    justify-content: space-between;
+}
+
+#Logo{
+    width: 100px;
+}
+
+#Logo-phone{
+    width: 80px;
+}
+
+#Logo-SideBar{
+    width: 80px;
+    margin: 20px ;
+}
+
+#NavFirstRow{
+    display: flex;
+    flex-direction: row;
+}
+
+#NavContent{
+    margin: 20px 20px 20px 10%; 
+    display: flex;
+    gap:20px;
+}
+
+#NavItem{
+    font-size: 15px;
+    color: white;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+#sideBarContainer{
+    display: flex;
+    flex-direction: column;
+    padding: 50px 20px;
+}
+
+#SideItem{
+    font-size: 15px;
+    margin: 10px 10px;
+    color: black;
+    font-weight: 600;
+}
+
+#UserName{
+    background-color: black;
+    border-radius: 50px;
+    color: white;
+    padding: 10px 20px;
+    margin: 10px 20px;
+    display: flex;
+    cursor: pointer;
+}
+
+#UserName-sidebar{
+    background-color: black;
+    border-radius: 50px;
+    color: white;
+    padding: 10px 20px;
+    margin: 90% 10px 10px 10px;
+    display: flex;
+}
+
+#UserName h5{
+    margin-top: 2px;
+}
+
+#Logout-icon{
+    margin-left: 10px;
+    width: 15px;
+    transform: rotateY(180deg);
+    filter: brightness(0) invert(1);
+}
+
+#PhoneNav{
+    background-color: #386BDF;
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+}
+
+#menuicon{
+    margin-top: 3%;
+    filter: brightness(0) invert(1);
+}
+
+#closeicon{
+    margin: 10px 10px 10px 50px;
+}
+
+/* ----------------------------------Footer------------------------------------- */
+
+#Footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px 0px;
+}
+
+
+/* -----------------------------------Home------------------------------------- */
+
+#HomeTopSection{
+    display: flex;
+    flex-direction: row;
+}
+
+#HomeTitle{
+    font-size: 80px;
+    font-weight: 700;
+    width: 600px;
+    line-height: 120%;
+}
+
+#HomeMidSection{
+    border-color: black;
+    display: flex;
+    justify-content: space-between;
+    border-top: 2px solid black;
+    padding-top: 20px;
+    margin-top: 20px;
+}
+
+#Button1{
+    background-color: #386BDF;
+    padding: 10px 50px;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#HomeMidSection h5:first-child{
+    font-weight: 500;
+    font-size: 15px;
+}
+
+#EventsSection{
+    display: flex;
+    border-radius: 10px;
+    margin-left: 5%;
+    border: 2px solid black ;
+    cursor: pointer;
+}
+
+#EventsSection h4{
+    font-weight: 600;
+    font-size: 15px;
+    margin: 30px 15px;
+    width: 20%;
+}
+
+#EventHomeImg{
+    width: 50%;
+}
+
+#Redirect-icon{
+    width: 30px;
+    margin-top: -30%;
+    margin-left: 15%;
+}
+
+#HomeBottomSection{
+    display: flex;
+    margin-top: 40px;
+justify-content: space-between;
+}
+
+#HomeBottomSection2{
+    display: flex;
+    gap: 20px;
+}
+
+#HomeBottomSection1 div:first-child{
+    display: flex;
+}
+
+#Homecard{
+    padding: 20px 30px;
+    background-color: #386BDF;
+    border-radius: 10px;
+}
+
+#Homecard h1{
+    color: white;
+    font-size: 60px;
+    margin-left: 10px;
+}
+
+#Homecard h4{
+    color: white;
+    font-size: 15px;
+    width: 100px;
+    margin-left: 10px;
+    font-weight: 400;
+}
+
+#HomeCardBottom{
+    display: flex;
+}
+
+#HomecardIcon{
+    width: 70px;
+    filter: brightness(0) invert(1);
+}
+
+#playcontent{
+    margin: 15px;
+}
+
+#playcontent h5{
+    font-size: 15px;
+}
+
+#playcontent h6{
+    font-size: 12px;
+    font-weight: 400;
+}
+
+#playitem{
+    border:  2px solid #000000;
+    border-radius: 50px;
+    text-align: center;
+    margin: 4px 25%;
+}
