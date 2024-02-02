@@ -150,6 +150,7 @@
 
 #EventsSection{
     display: flex;
+    justify-content: space-between;
     border-radius: 10px;
     margin-left: 5%;
     border: 2px solid black ;
@@ -169,8 +170,8 @@
 
 #Redirect-icon{
     width: 30px;
-    margin-top: -30%;
-    margin-left: 15%;
+    margin-top: 40%;
+    margin-right: 10px;
 }
 
 #HomeBottomSection{
@@ -235,4 +236,10 @@ justify-content: space-between;
     border-radius: 50px;
     text-align: center;
     margin: 4px 25%;
+}
+
+@media only screen and (max-width:600px){
+    #Footer{
+        font-size: 10px;
+    }
 }
