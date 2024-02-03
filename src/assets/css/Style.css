@@ -109,6 +109,7 @@
     color: white;
     text-align: center;
     padding: 20px 0px;
+    margin-top: 2%;
 }
 
 
@@ -238,8 +239,93 @@ justify-content: space-between;
     margin: 4px 25%;
 }
 
+/* ----------------------------EVENT---------------------------- */
+
+#EventTitle{
+    text-align: center;
+    margin-top: 2%;
+}
+
+#EventCards{
+    display: flex;
+    flex-direction: column;
+}
+
+#EventCard{
+    display: flex;
+    padding: 2%;
+    margin: 1% 15%;
+    border: 2px solid #000000;
+    border-radius: 10px;
+}
+
+#CardImage{
+    width: 250px;
+    height: 35%;
+}
+
+#EventCardTitle{
+    display: flex;
+    justify-content: space-between;
+}
+
+#EventCardBottom{
+    display: flex;
+    justify-content: space-between;
+}
+
+#EventCardTitle h2{
+    font-size: 20px;
+}
+
+#EventCardTitle h4{
+    color: red;
+}
+
+#EventCardBody{
+    margin: 0px 20px;
+}
+
+#EventCardBody h5{
+    margin-top: 10px;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+#EventCardBottom{
+    margin-top: 5px;
+}
+
+#EventCardBottom h4{
+    font-size: 15px;
+    margin-top: 20px;
+}
+
+#Button2{
+    background-color: #386BDF;
+    padding: 10px 50px;
+    color: white;
+    text-align: center;
+    margin: 10px 0;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
 @media only screen and (max-width:600px){
     #Footer{
         font-size: 10px;
+    }
+    #EventTitle{
+        margin: 30px 0px;
+    }
+    #EventCard{
+        flex-wrap: wrap;
+        justify-content: center;
+        margin:3% 5% ;
+    }
+    #EventCardBottom{
+        flex-wrap: wrap;
+    }#Button2{
+        width: 100%;
     }
 }
