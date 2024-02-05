@@ -6,7 +6,7 @@ import EventImg3 from '../assets/img/chatathon.png'
 const Event = () => {
     return (
         <div style={{ margin: "0px 5%" }} >
-            <h1 id='EventTitle'>Event</h1>
+            <h1 id='PageTitle'>Event</h1>
             <div id='EventCards'>
                 <div id='EventCard'>
                     <img id='CardImage' src={EventImg1} alt="img" />

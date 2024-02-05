@@ -1,10 +1,10 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
 
 }
 
-#NavBar{
+#NavBar {
     padding: 20px 5%;
     height: 10%;
     display: flex;
@@ -12,51 +12,56 @@
     justify-content: space-between;
 }
 
-#Logo{
+.Link {
+    text-decoration: none;
+}
+
+
+#Logo {
     width: 100px;
 }
 
-#Logo-phone{
+#Logo-phone {
     width: 80px;
 }
 
-#Logo-SideBar{
+#Logo-SideBar {
     width: 80px;
-    margin: 20px ;
+    margin: 20px;
 }
 
-#NavFirstRow{
+#NavFirstRow {
     display: flex;
     flex-direction: row;
 }
 
-#NavContent{
-    margin: 20px 20px 20px 10%; 
+#NavContent {
+    margin: 20px 20px 20px 10%;
     display: flex;
-    gap:20px;
+    gap: 20px;
 }
 
-#NavItem{
+#NavItem {
     font-size: 15px;
     color: white;
     font-weight: 500;
     cursor: pointer;
 }
 
-#sideBarContainer{
+#sideBarContainer {
     display: flex;
     flex-direction: column;
     padding: 50px 20px;
 }
 
-#SideItem{
+#SideItem {
     font-size: 15px;
     margin: 10px 10px;
     color: black;
     font-weight: 600;
 }
 
-#UserName{
+#UserName {
     background-color: black;
     border-radius: 50px;
     color: white;
@@ -66,7 +71,7 @@
     cursor: pointer;
 }
 
-#UserName-sidebar{
+#UserName-sidebar {
     background-color: black;
     border-radius: 50px;
     color: white;
@@ -75,38 +80,39 @@
     display: flex;
 }
 
-#UserName h5{
+#UserName h5 {
     margin-top: 2px;
 }
 
-#Logout-icon{
+#Logout-icon {
     margin-left: 10px;
     width: 15px;
     transform: rotateY(180deg);
     filter: brightness(0) invert(1);
 }
 
-#PhoneNav{
+#PhoneNav {
     background-color: #386BDF;
     display: flex;
     padding: 20px;
     justify-content: space-between;
 }
 
-#menuicon{
+#menuicon {
     margin-top: 3%;
     filter: brightness(0) invert(1);
 }
 
-#closeicon{
+#closeicon {
     margin: 10px 10px 10px 50px;
 }
 
 /* ----------------------------------Footer------------------------------------- */
 
-#Footer{
+#Footer {
     background-color: black;
     color: white;
+    font-size: 12px;
     text-align: center;
     padding: 20px 0px;
     margin-top: 2%;
@@ -115,19 +121,19 @@
 
 /* -----------------------------------Home------------------------------------- */
 
-#HomeTopSection{
+#HomeTopSection {
     display: flex;
     flex-direction: row;
 }
 
-#HomeTitle{
+#HomeTitle {
     font-size: 80px;
     font-weight: 700;
     width: 600px;
     line-height: 120%;
 }
 
-#HomeMidSection{
+#HomeMidSection {
     border-color: black;
     display: flex;
     justify-content: space-between;
@@ -136,7 +142,7 @@
     margin-top: 20px;
 }
 
-#Button1{
+#Button1 {
     background-color: #386BDF;
     padding: 10px 50px;
     color: white;
@@ -144,65 +150,65 @@
     cursor: pointer;
 }
 
-#HomeMidSection h5:first-child{
+#HomeMidSection h5:first-child {
     font-weight: 500;
     font-size: 15px;
 }
 
-#EventsSection{
+#EventsSection {
     display: flex;
     justify-content: space-between;
     border-radius: 10px;
     margin-left: 5%;
-    border: 2px solid black ;
+    border: 2px solid black;
     cursor: pointer;
 }
 
-#EventsSection h4{
+#EventsSection h4 {
     font-weight: 600;
     font-size: 15px;
     margin: 30px 15px;
     width: 20%;
 }
 
-#EventHomeImg{
+#EventHomeImg {
     width: 50%;
 }
 
-#Redirect-icon{
+#Redirect-icon {
     width: 30px;
     margin-top: 40%;
     margin-right: 10px;
 }
 
-#HomeBottomSection{
+#HomeBottomSection {
     display: flex;
     margin-top: 40px;
-justify-content: space-between;
+    justify-content: space-between;
 }
 
-#HomeBottomSection2{
+#HomeBottomSection2 {
     display: flex;
     gap: 20px;
 }
 
-#HomeBottomSection1 div:first-child{
+#HomeBottomSection1 div:first-child {
     display: flex;
 }
 
-#Homecard{
+#Homecard {
     padding: 20px 30px;
     background-color: #386BDF;
     border-radius: 10px;
 }
 
-#Homecard h1{
+#Homecard h1 {
     color: white;
     font-size: 60px;
     margin-left: 10px;
 }
 
-#Homecard h4{
+#Homecard h4 {
     color: white;
     font-size: 15px;
     width: 100px;
@@ -210,30 +216,30 @@ justify-content: space-between;
     font-weight: 400;
 }
 
-#HomeCardBottom{
+#HomeCardBottom {
     display: flex;
 }
 
-#HomecardIcon{
+#HomecardIcon {
     width: 70px;
     filter: brightness(0) invert(1);
 }
 
-#playcontent{
+#playcontent {
     margin: 15px;
 }
 
-#playcontent h5{
+#playcontent h5 {
     font-size: 15px;
 }
 
-#playcontent h6{
+#playcontent h6 {
     font-size: 12px;
     font-weight: 400;
 }
 
-#playitem{
-    border:  2px solid #000000;
+#playitem {
+    border: 2px solid #000000;
     border-radius: 50px;
     text-align: center;
     margin: 4px 25%;
@@ -241,17 +247,17 @@ justify-content: space-between;
 
 /* ----------------------------EVENT---------------------------- */
 
-#EventTitle{
+#PageTitle {
     text-align: center;
     margin-top: 2%;
 }
 
-#EventCards{
+#EventCards {
     display: flex;
     flex-direction: column;
 }
 
-#EventCard{
+#EventCard {
     display: flex;
     padding: 2%;
     margin: 1% 15%;
@@ -259,49 +265,49 @@ justify-content: space-between;
     border-radius: 10px;
 }
 
-#CardImage{
+#CardImage {
     width: 250px;
     height: 35%;
 }
 
-#EventCardTitle{
+#EventCardTitle {
     display: flex;
     justify-content: space-between;
 }
 
-#EventCardBottom{
+#EventCardBottom {
     display: flex;
     justify-content: space-between;
 }
 
-#EventCardTitle h2{
+#EventCardTitle h2 {
     font-size: 20px;
 }
 
-#EventCardTitle h4{
+#EventCardTitle h4 {
     color: red;
 }
 
-#EventCardBody{
+#EventCardBody {
     margin: 0px 20px;
 }
 
-#EventCardBody h5{
+#EventCardBody h5 {
     margin-top: 10px;
     font-size: 15px;
     font-weight: 400;
 }
 
-#EventCardBottom{
+#EventCardBottom {
     margin-top: 5px;
 }
 
-#EventCardBottom h4{
+#EventCardBottom h4 {
     font-size: 15px;
     margin-top: 20px;
 }
 
-#Button2{
+#Button2 {
     background-color: #386BDF;
     padding: 10px 50px;
     color: white;
@@ -311,21 +317,103 @@ justify-content: space-between;
     cursor: pointer;
 }
 
-@media only screen and (max-width:600px){
-    #Footer{
+#AlumniCards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#AlumniCard {
+    background-color: #386BDF;
+    width: 280px;
+    margin-top: 3%;
+    height: 350px;
+    border-radius: 10px;
+}
+
+#alumniImage {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+
+#AlumniInnerCard {
+    display: none;
+    padding: 5%;
+}
+
+#AlumniInnerCardChild {
+    padding: 10% 5%;
+    color: white;
+}
+
+#AlumniCard:hover #alumniImage {
+    display: none;
+}
+
+#AlumniCard:hover #AlumniInnerCard {
+    display: block;
+}
+
+
+#AlumniInnerCardChild h1 {
+    width: 50%;
+    font-size: 40px;
+    line-height: 100%;
+}
+
+#AlumniInnerCardChild h5 {
+    font-weight: 700;
+}
+
+#AlumniInnerCardChild h4 {
+    margin-top: 10%;
+    font-size: 15px;
+    line-height: 120%;
+    font-weight: 300;
+}
+
+#AlumniInnerCardChild div {
+    display: flex;
+    justify-content: space-between;
+}
+
+#AlumniContactBtn {
+    text-align: center;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+#Batch {
+    margin-top: 7%;
+}
+
+
+@media only screen and (max-width:600px) {
+    #Footer {
         font-size: 10px;
     }
-    #EventTitle{
+
+    #EventTitle {
         margin: 30px 0px;
     }
-    #EventCard{
+
+    #EventCard {
         flex-wrap: wrap;
         justify-content: center;
-        margin:3% 5% ;
+        margin: 3% 5%;
     }
-    #EventCardBottom{
+
+    #EventCardBottom {
         flex-wrap: wrap;
-    }#Button2{
+    }
+
+    #Button2 {
         width: 100%;
     }
 }

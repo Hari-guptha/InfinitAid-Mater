@@ -8,6 +8,7 @@ import { Box, Drawer, Stack } from '@mui/material'
 //Icon
 import MenuIcon from '@mui/icons-material/Menu';
 import CloseIcon from '@mui/icons-material/Close';
+import { Link } from 'react-router-dom'
 
 const Navbar = () => {
     const [NavControl, setNavControl] = useState(false)
@@ -16,14 +17,14 @@ const Navbar = () => {
             <Box sx={{ display: { xs: "none", sm: "block" } }}>
                 <div id='NavBar' sx={{ display: { xs: "none", sm: "block" } }}>
                     <div id='NavFirstRow' >
-                        <img id='Logo' src={Logo} alt="Logo" />
+                        <Link className='Link' to="/"><img id='Logo' src={Logo} alt="Logo" /></Link>
                         <div id='NavContent'>
                             <h5 id='NavItem'>Home</h5>
                             <h5 id='NavItem'>Achivements</h5>
-                            <h5 id='NavItem'>Alumni</h5>
+                            <Link className='Link' to="/Alumni"><h5 id='NavItem'>Alumni</h5></Link>
                             <h5 id='NavItem'>Contact</h5>
                             <h5 id='NavItem'>Learn</h5>
-                            <h5 id='NavItem'>Events</h5>
+                            <Link className='Link' to="/Event"><h5 id='NavItem'>Events</h5></Link>
                             <h5 id='NavItem'>Project</h5>
                         </div>
                     </div>
@@ -35,7 +36,7 @@ const Navbar = () => {
             </Box>
             <Box sx={{ display: { sm: "none", xs: "block" } }}>
                 <div id='PhoneNav' >
-                    <img id="Logo-phone" src={Logo} alt="logo" />
+                    <Link className='Link' to="/"><img id="Logo-phone" src={Logo} alt="logo" /></Link>
                     <MenuIcon id="menuicon" onClick={e => (setNavControl(true))} />
                 </div>
             </Box>
@@ -45,7 +46,7 @@ const Navbar = () => {
                 onClose={e => (setNavControl(false))} >
                 <div style={{overflow:"hidden"}}>
                     <div style={{ display: "flex" }}>
-                        <img src={Logo} id="Logo-SideBar" alt="logo" />
+                        <Link className='Link' to="/"><img src={Logo} id="Logo-SideBar" alt="logo" /></Link>
                         <CloseIcon id="closeicon" onClick={e => (setNavControl(false))} />
                     </div>
                     <div id='sideBarContainer'>
