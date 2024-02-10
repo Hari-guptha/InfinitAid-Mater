@@ -27,11 +27,11 @@ const Alumni = () => {
                     <div id='AlumniInnerCard' >
                         <div id='AlumniInnerCardChild'>
                             <div>
-                                <h1>Hari Guptha</h1>
+                                <h1>Santhana barathi</h1>
                                 <h5>Kore.Ai</h5>
                             </div>
                             <h5 id='Batch'>2024 Batch</h5>
-                            <h4>Hello there! My name is Hari Guptha, and I am a versatile professional with expertise in multiple domains. As a MERN stack developer</h4>
+                            <h4>Hello there! My name is Hari Guptha, and I am a versatile professional with  expertise in multiple domains. As a MERN stack developer</h4>
                         </div>
                         <h4 id='AlumniContactBtn'>CONTACT THROUGH LINKEDIN</h4>
                     </div>

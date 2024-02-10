@@ -20,7 +20,7 @@ const Navbar = () => {
                         <Link className='Link' to="/"><img id='Logo' src={Logo} alt="Logo" /></Link>
                         <div id='NavContent'>
                             <h5 id='NavItem'>Home</h5>
-                            <h5 id='NavItem'>Achivements</h5>
+                            <Link className='Link' to="/Achivements"><h5 id='NavItem'>Achivements</h5></Link>
                             <Link className='Link' to="/Alumni"><h5 id='NavItem'>Alumni</h5></Link>
                             <h5 id='NavItem'>Contact</h5>
                             <h5 id='NavItem'>Learn</h5>
