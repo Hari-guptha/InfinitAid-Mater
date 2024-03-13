@@ -6,6 +6,8 @@ import { Route, Routes } from 'react-router-dom'
 import Event from './Components/Event'
 import Alumni from './Components/Alumni'
 import Achivements from './Components/Achivements'
+import Project from './Components/Project'
+import Learn from './Components/Learn'
 
 const App = () => {
   return (
@@ -16,6 +18,8 @@ const App = () => {
         <Route path="/Event" element={<Event/>} />
         <Route path="/Alumni" element={<Alumni/>} />
         <Route path="/Achivements" element={<Achivements/>} />
+        <Route path="/Projects" element={<Project/>} />
+        <Route path="/Learn" element={<Learn/>} />
       </Routes>
       <Footer/>
     </div>

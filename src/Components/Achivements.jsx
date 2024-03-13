@@ -22,7 +22,45 @@ const Achivements = () => {
                                 <img id='achiveicons' src={Youtube} alt="" />
                             </div>
                             <div>Download
-                                <img id='achiveicons' src={git} alt="" />
+                                <img id='achiveicons1' src={git} alt="" />
+                            </div>
+                        </div>
+                        <h5>REDIRECT TO RESULTS PAGE</h5>
+                    </div>
+                </div>
+                <div id='achiveCard'>
+                    <img id="achiveImg" src={Kore} alt="" />
+                    <div id='AchiveCardInner'>
+                        <div id='AchiveCardInnerchild' >
+                            <h1>KORE.AI BOTATHON</h1>
+                            <h6>FIRST PLACE</h6>
+                        </div>
+                        <h4>Design, test, and deploy conversational experiences across multiple channels and languages.</h4>
+                        <div id='Achivebtns'>
+                            <div>Watch
+                                <img id='achiveicons' src={Youtube} alt="" />
+                            </div>
+                            <div>Download
+                                <img id='achiveicons1' src={git} alt="" />
+                            </div>
+                        </div>
+                        <h5>REDIRECT TO RESULTS PAGE</h5>
+                    </div>
+                </div>
+                <div id='achiveCard'>
+                    <img id="achiveImg" src={Kore} alt="" />
+                    <div id='AchiveCardInner'>
+                        <div id='AchiveCardInnerchild' >
+                            <h1>KORE.AI BOTATHON</h1>
+                            <h6>FIRST PLACE</h6>
+                        </div>
+                        <h4>Design, test, and deploy conversational experiences across multiple channels and languages.</h4>
+                        <div id='Achivebtns'>
+                            <div>Watch
+                                <img id='achiveicons' src={Youtube} alt="" />
+                            </div>
+                            <div>Download
+                                <img id='achiveicons1' src={git} alt="" />
                             </div>
                         </div>
                         <h5>REDIRECT TO RESULTS PAGE</h5>

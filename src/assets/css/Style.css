@@ -318,10 +318,10 @@
     cursor: pointer;
 }
 
+/* ----------------alumni---------------- */
 #AlumniCards {
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    gap: 50px;
     flex-wrap: wrap;
 }
 
@@ -342,6 +342,7 @@
 #AlumniInnerCard {
     display: none;
     padding: 5%;
+    height: fit-content;
 }
 
 #AlumniInnerCardChild {
@@ -357,9 +358,13 @@
     display: block;
 }
 
+#AlumniCard:hover {
+    height: 100% !important;
+}
+
 
 #AlumniInnerCardChild h1 {
-    width:80%;
+    width: 80%;
     overflow-wrap: break-word;
     font-size: 40px;
     line-height: 100%;
@@ -387,6 +392,7 @@
     background-color: black;
     color: white;
     padding: 10px;
+    margin-bottom: 10px;
     font-size: 12px;
     font-weight: 600;
 }
@@ -395,8 +401,42 @@
     margin-top: 7%;
 }
 
+#filterBox {
+    margin: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 100px;
+    background-color: #386BDF;
+}
 
-#achiveCard{
+#Search {
+    width: 100%;
+    padding: 5px 10px;
+    margin: 30px 0px 30px 40px;
+}
+
+#Search {
+    width: 100%;
+    padding: 5px 10px;
+    margin: 30px 0px 30px 40px;
+}
+
+#SearchCont {
+    display: flex;
+}
+
+#SearchBtn {
+    background-color: black;
+    color: white;
+    margin: 30px 0px;
+    padding: 10px;
+    font-weight: 300;
+}
+
+/* ----------------------Achivement---------------------- */
+
+#achiveCard {
     background-color: #386BDF;
     padding: 10px;
     border-radius: 10px;
@@ -404,33 +444,33 @@
     margin: 1% 10%;
 }
 
-#achiveImg{
+#achiveImg {
     width: 30%;
 }
 
-#AchiveCards{
+#AchiveCards {
     margin-top: 3%;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
 }
 
-#AchiveCardInner{
+#AchiveCardInner {
     width: 100%;
     margin: 10px 40px;
 }
 
-#AchiveCardInnerchild{
+#AchiveCardInnerchild {
     display: flex;
     color: white;
     justify-content: space-between;
 }
 
-#AchiveCardInnerchild h1{
+#AchiveCardInnerchild h1 {
     font-weight: 600;
 }
 
-#AchiveCardInnerchild h6{
+#AchiveCardInnerchild h6 {
     font-size: 13px;
     font-weight: 400;
     background-color: black;
@@ -445,12 +485,12 @@
     padding-top: 20px;
 }
 
-#Achivebtns{
+#Achivebtns {
     display: flex;
     gap: 20px;
 }
 
-#Achivebtns div{
+#Achivebtns div {
     display: flex;
     border-radius: 5px;
     gap: 10px;
@@ -460,13 +500,18 @@
     padding: 10px 20px;
 }
 
-#achiveicons{
-    margin-top: 2px;
+#achiveicons {
+    margin-top: 3px;
     width: 25px;
+    height: 17px;
+}
+
+#achiveicons1 {
+    width: 23px;
     height: 20px;
 }
 
-#AchiveCardInner h5{
+#AchiveCardInner h5 {
     background-color: #000000;
     color: #ffffff;
     padding: 10px 20px;
@@ -476,53 +521,248 @@
     font-weight: 400;
 }
 
+#ProjectCards {
+    display: flex;
+    margin-top: 3%;
+    flex-wrap: wrap;
+    row-gap: 20px;
+    justify-content: space-between;
+}
+
+#projectCard {
+    width: 20%;
+    height: 250px;
+    background-color: #386BDF;
+    padding: 30px 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: white;
+    border-radius: 10px;
+}
+
+#projectCard h5 {
+    font-size: 13px;
+    font-weight: 400;
+}
+
+#projectCard h4 {
+    margin-top: 10%;
+}
+
+#AlumniContactBtn {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+#projectimg {
+    filter: brightness(0) invert(1) !important;
+    width: 20px;
+}
+
+/* ------------------------lEARN------------------------------------------- */
+
+#LearnMain {
+    margin-top: 20px;
+    display: flex;
+    gap: 30px;
+}
+
+#Learnfilter {
+    background-color: #386BDF;
+    width: 100% !important;
+    border-radius: 10px;
+    padding: 50px 30px;
+    color: white;
+    height: 100%;
+}
+
+#MainContent {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    row-gap: 30px !important;
+    margin: 0px 30px;
+}
+
+#LearnCard {
+    width: 27%;
+    height: fit-content;
+    background-color: #386BDF;
+    padding: 30px 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: white;
+    border-radius: 10px;
+}
+
+
+#LearnCard h5 {
+    margin: 20px 0;
+    font-weight: 400;
+}
+
+
+#fBtn1 {
+    background-color: #000000;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    width: 200px;
+    font-size: 15px;
+}
+
+#fline {
+    margin-left: 30px;
+    width: 5px;
+    height: 250px;
+    background-color: #ffffff;
+}
+
+#fBtn2 {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    text-align: center;
+    font-weight: 400;
+    width: 130px;
+    margin: 10px 0 0 20px;
+}
+
+#fBtn1:hover + #drop1,
+#drop1:hover {
+    display: block !important;
+}
+
+#drop1 {
+    display: none;
+}
+
+#fbtntype{
+    background-color: #000000;
+    padding: 10px 20px;
+    width: 60px;
+    font-weight: 400;
+    text-align: center;
+}
+
 @media only screen and (max-width:600px) {
     #Footer {
         font-size: 10px;
     }
-    #achiveCard{
-        margin: 1% 3%;
+
+    #AlumniCards {
+        display: flex;
+        flex-direction: column;
     }
-    #achiveCard{
+
+    #AlumniCard {
+        width: 100%;
+    }
+
+    #achiveCard {
+        margin: 3%;
+    }
+
+    #achiveCard {
         flex-wrap: wrap;
     }
-    #AchiveCardInnerchild h1{
+
+    #AchiveCardInnerchild h1 {
         font-size: 20px;
     }
-    #Achivebtns div{
-        
-    }
-    #Achivebtns{
+
+    #Achivebtns div {}
+
+    #Achivebtns {
         gap: 10px;
     }
-    #AchiveCardInnerchild{
+
+    #AchiveCardInnerchild {
         flex-wrap: wrap;
     }
+
     #EventTitle {
         margin: 30px 0px;
     }
-    #AchiveCardInnerchild{
+
+    #AchiveCardInnerchild {
         flex-direction: column;
     }
-    #achiveImg{
+
+    #ProjectCards {
+        flex-direction: column;
+    }
+
+    #projectCard {
+        width: fit-content;
+    }
+
+    #achiveImg {
         width: 100%;
     }
-    #AchiveCardInnerchild h6{
+
+    #AchiveCardInnerchild h6 {
         padding: 5px 10px;
         width: fit-content;
     }
-    #AchiveCardInner{
+
+    #Achivebtns {
+        font-size: 13px;
+    }
+    #LearnCard{
+        width: 100%;
+    }
+    #LearnMain{
+        flex-wrap: wrap;
+    }
+    #MainContent{
+        flex-wrap: wrap;
+        margin: 0px 10px;
+    }
+    #fcenter{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #AchiveCardInner {
         margin: 10px;
     }
+
     #EventCard {
         flex-wrap: wrap;
         justify-content: center;
         margin: 3% 5%;
     }
+
     #EventCardBottom {
         flex-wrap: wrap;
     }
+
     #Button2 {
         width: 100%;
+    }
+
+    #Homecard {
+       width: fit-content;
+       padding: 10px;
+    }
+    #Homecard h4{
+        font-size: 10px;
+        width: fit-content;
+     }
+    #HomeCardBottom h1 {
+        font-size: 20px;
+    }
+    #HomeCardBottom img {
+       width: 20px;
+    }
+    #HomeBottomSection2{
+        gap: 5px;
+    }
+    #EventHomeImg{
+        height: fit-content;
     }
 }

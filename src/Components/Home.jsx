@@ -78,7 +78,7 @@ const Home = () => {
                             </div>
                         </div>
                     </div>
-                    <div id='EventsSection' style={{ marginTop: "20%", marginLeft: "0px", height: "200px" }}>
+                    <div id='EventsSection' style={{ marginTop: "20%", marginLeft: "0px", height: "fit-content",padding:"10px" }}>
                         <h4>Events and Hackathon</h4>
                         <img id='EventHomeImg' src={Event} alt="Event" />
                         <div style={{ alignItems: "flex-start" }}>
@@ -86,20 +86,7 @@ const Home = () => {
                         </div>
                     </div>
                 </div>
-                <div id='HomeBottomSection' style={{ flexDirection: "column" }}>
-                    <div id='HomeBottomSection1'>
-                        <div>
-                            <img src={Play} alt="play" />
-                            <div id='playcontent'>
-                                <h5>Scholarly Junction</h5>
-                                <h6>Join, Learn, Thrive with Curious Students</h6>
-                            </div>
-                        </div>
-                        <div id='playitem'>Video 1</div>
-                        <div id='playitem' >Video 2</div>
-                        <div id='playitem' >Video 3</div>
-                    </div>
-                    <div id='HomeBottomSection2' style={{ flexDirection: "column", marginTop: "20%" }} >
+                <div id='HomeBottomSection2' style={{ flexDirection: "row", marginTop: "20%" }} >
                         <div id='Homecard' >
                             <h4>Students Achivements</h4>
                             <div id='HomeCardBottom'>
@@ -121,6 +108,19 @@ const Home = () => {
                                 <h1>99 +</h1>
                             </div>
                         </div>
+                    </div>
+                <div id='HomeBottomSection' style={{ flexDirection: "column" }}>
+                    <div id='HomeBottomSection1'>
+                        <div>
+                            <img src={Play} alt="play" />
+                            <div id='playcontent'>
+                                <h5>Scholarly Junction</h5>
+                                <h6>Join, Learn, Thrive with Curious Students</h6>
+                            </div>
+                        </div>
+                        <div id='playitem'>Video 1</div>
+                        <div id='playitem' >Video 2</div>
+                        <div id='playitem' >Video 3</div>
                     </div>
                 </div>
             </Box>

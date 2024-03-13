@@ -5,6 +5,22 @@ const Alumni = () => {
     return (
         <div style={{ margin: "0px 5%" }} >
             <h1 id='PageTitle'>Alumni</h1>
+            <div id='filterBox'>
+                <div id='SearchCont'>
+                    <input id='Search' style={{width:"150%"}} type="text" placeholder='Enter the Name' />
+                    <h5 id='SearchBtn'>Search</h5>
+                </div>
+                <div style={{display:"flex",marginRight:"50px"}}>
+                <div id='SearchCont'>
+                    <input id='Search' type="text" placeholder='Enter the Company Name' />
+                    <h5 id='SearchBtn'>Set</h5>
+                </div>
+                <div id='SearchCont'>
+                    <input id='Search' type="text" placeholder='Enter the Batch year' />
+                    <h5 id='SearchBtn'>Set</h5>
+                </div>
+                </div>
+            </div>
             <div id='AlumniCards'>
                 <div id='AlumniCard'>
                     <div id='alumniImage' style={{ backgroundImage: `url(${Alumni1})` }}>

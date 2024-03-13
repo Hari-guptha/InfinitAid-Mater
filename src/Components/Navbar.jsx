@@ -13,19 +13,19 @@ import { Link } from 'react-router-dom'
 const Navbar = () => {
     const [NavControl, setNavControl] = useState(false)
     return (
-        <div>
+        <div >
             <Box sx={{ display: { xs: "none", sm: "block" } }}>
                 <div id='NavBar' sx={{ display: { xs: "none", sm: "block" } }}>
                     <div id='NavFirstRow' >
                         <Link className='Link' to="/"><img id='Logo' src={Logo} alt="Logo" /></Link>
                         <div id='NavContent'>
-                            <h5 id='NavItem'>Home</h5>
+                        <Link className='Link' to="/"><h5 id='NavItem'>Home</h5></Link>
                             <Link className='Link' to="/Achivements"><h5 id='NavItem'>Achivements</h5></Link>
                             <Link className='Link' to="/Alumni"><h5 id='NavItem'>Alumni</h5></Link>
                             <h5 id='NavItem'>Contact</h5>
-                            <h5 id='NavItem'>Learn</h5>
+                            <Link className='Link' to="/Learn"><h5 id='NavItem'>Learn</h5></Link>
                             <Link className='Link' to="/Event"><h5 id='NavItem'>Events</h5></Link>
-                            <h5 id='NavItem'>Project</h5>
+                            <Link className='Link' to="/Projects"><h5 id='NavItem'>Project</h5></Link>
                         </div>
                     </div>
                     <div id='UserName'>
@@ -46,17 +46,17 @@ const Navbar = () => {
                 onClose={e => (setNavControl(false))} >
                 <div style={{overflow:"hidden"}}>
                     <div style={{ display: "flex" }}>
-                        <Link className='Link' to="/"><img src={Logo} id="Logo-SideBar" alt="logo" /></Link>
+                        <Link className='Link' to="/"><img src={Logo} id="Logo-SideBar" onClick={e => (setNavControl(false))} alt="logo" /></Link>
                         <CloseIcon id="closeicon" onClick={e => (setNavControl(false))} />
                     </div>
                     <div id='sideBarContainer'>
-                        <h5 id='SideItem'>Home</h5>
-                        <h5 id='SideItem'>Achivements</h5>
-                        <h5 id='SideItem'>Alumni</h5>
-                        <h5 id='SideItem'>Contact</h5>
-                        <h5 id='SideItem'>Learn</h5>
-                        <h5 id='SideItem'>Events</h5>
-                        <h5 id='SideItem'>Project</h5>
+                    <Link className='Link' to="/"><h5 id='SideItem' onClick={e => (setNavControl(false))}>Home</h5></Link>
+                        <Link className='Link' to="/Achivements"><h5 id='SideItem' onClick={e => (setNavControl(false))}>Achivements</h5></Link>
+                        <Link className='Link' to="/Alumni"><h5 id='SideItem' onClick={e => (setNavControl(false))}>Alumni</h5></Link>
+                        <h5 id='SideItem' onClick={e => (setNavControl(false))}>Contact</h5>
+                        <Link className='Link' to="/learn"><h5 id='SideItem' onClick={e => (setNavControl(false))}>Learn</h5></Link>
+                        <Link className='Link' to="/Event"><h5 id='SideItem' onClick={e => (setNavControl(false))}>Events</h5></Link>
+                        <Link className='Link' to="/Projects"><h5 id='SideItem' onClick={e => (setNavControl(false))}>Project</h5></Link>
                         <div id='UserName-sidebar'>
                             <h5>Hari Guptha</h5>
                             <img id='Logout-icon' src={Logout} alt="" />
