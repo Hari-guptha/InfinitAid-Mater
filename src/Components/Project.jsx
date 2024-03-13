@@ -7,6 +7,16 @@ const Project = () => {
             <h1 id='PageTitle'>
                 Projects
             </h1>
+            <div id='filterBox2'>
+                <div id='SearchCont'>
+                    <input id='Search' style={{width:"150%"}} type="text" placeholder='Enter the Name' />
+                    <h5 id='SearchBtn'>Search</h5>
+                </div>
+                <div id='SearchCont'>
+                    <input id='Search' type="text" placeholder='Enter the domain Name' />
+                    <h5 id='SearchBtn'>Set</h5>
+                </div>
+            </div>
             <div id='ProjectCards'>
                 <div id='projectCard'>
                     <h1>DEEP UI</h1>

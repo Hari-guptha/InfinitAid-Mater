@@ -97,58 +97,58 @@ const Learn = () => {
                     </div>
                     <div id='MainContent'>
                         <div id='LearnCard'>
-                            <h1>DEEP UI</h1>
+                            <h1>AML</h1>
+                            <h6>Subject code: 12334</h6>
                             <h5>DeepUI is an innovative application where the UI color dynamically changes based on the user's facial expressions.</h5>
-                            <h4 id='AlumniContactBtn'><img id='projectimg' src={git} alt=''></img>Download</h4>
+                            <h4 id='AlumniContactBtn'>View</h4>
                         </div>
                         <div id='LearnCard'>
-                            <h1>DEEP UI</h1>
+                            <h1>AML</h1>
+                            <h6>Subject code: 12334</h6>
                             <h5>DeepUI is an innovative application where the UI color dynamically changes based on the user's facial expressions.</h5>
-                            <h4 id='AlumniContactBtn'><img id='projectimg' src={git} alt=''></img>Download</h4>                </div>
-                        <div id='LearnCard'>
-                            <h1>DEEP UI</h1>
-                            <h5>DeepUI is an innovative application where the UI color dynamically changes based on the user's facial expressions.</h5>
-                            <h4 id='AlumniContactBtn'><img id='projectimg' src={git} alt=''></img>Download</h4>
+                            <h4 id='AlumniContactBtn'>View</h4>
                         </div>
                         <div id='LearnCard'>
-                            <h1>DEEP UI</h1>
+                            <h1>AML</h1>
+                            <h6>Subject code: 12334</h6>
                             <h5>DeepUI is an innovative application where the UI color dynamically changes based on the user's facial expressions.</h5>
-                            <h4 id='AlumniContactBtn'><img id='projectimg' src={git} alt=''></img>Download</h4>
+                            <h4 id='AlumniContactBtn'>View</h4>
                         </div>
                         <div id='LearnCard'>
-                            <h1>DEEP UI</h1>
+                            <h1>AML</h1>
+                            <h6>Subject code: 12334</h6>
                             <h5>DeepUI is an innovative application where the UI color dynamically changes based on the user's facial expressions.</h5>
-                            <h4 id='AlumniContactBtn'><img id='projectimg' src={git} alt=''></img>Download</h4>
+                            <h4 id='AlumniContactBtn'>View</h4>
                         </div>
                         <div id='LearnCard'>
-                            <h1>DEEP UI</h1>
+                            <h1>AML</h1>
+                            <h6>Subject code: 12334</h6>
                             <h5>DeepUI is an innovative application where the UI color dynamically changes based on the user's facial expressions.</h5>
-                            <h4 id='AlumniContactBtn'><img id='projectimg' src={git} alt=''></img>Download</h4>
+                            <h4 id='AlumniContactBtn'>View</h4>
                         </div>
                         <div id='LearnCard'>
-                            <h1>DEEP UI</h1>
+                            <h1>AML</h1>
+                            <h6>Subject code: 12334</h6>
                             <h5>DeepUI is an innovative application where the UI color dynamically changes based on the user's facial expressions.</h5>
-                            <h4 id='AlumniContactBtn'><img id='projectimg' src={git} alt=''></img>Download</h4>
+                            <h4 id='AlumniContactBtn'>View</h4>
                         </div>
                         <div id='LearnCard'>
-                            <h1>DEEP UI</h1>
+                            <h1>AML</h1>
+                            <h6>Subject code: 12334</h6>
                             <h5>DeepUI is an innovative application where the UI color dynamically changes based on the user's facial expressions.</h5>
-                            <h4 id='AlumniContactBtn'><img id='projectimg' src={git} alt=''></img>Download</h4>
+                            <h4 id='AlumniContactBtn'>View</h4>
                         </div>
                         <div id='LearnCard'>
-                            <h1>DEEP UI</h1>
+                            <h1>AML</h1>
+                            <h6>Subject code: 12334</h6>
                             <h5>DeepUI is an innovative application where the UI color dynamically changes based on the user's facial expressions.</h5>
-                            <h4 id='AlumniContactBtn'><img id='projectimg' src={git} alt=''></img>Download</h4>
+                            <h4 id='AlumniContactBtn'>View</h4>
                         </div>
                         <div id='LearnCard'>
-                            <h1>DEEP UI</h1>
+                            <h1>AML</h1>
+                            <h6>Subject code: 12334</h6>
                             <h5>DeepUI is an innovative application where the UI color dynamically changes based on the user's facial expressions.</h5>
-                            <h4 id='AlumniContactBtn'><img id='projectimg' src={git} alt=''></img>Download</h4>
-                        </div>
-                        <div id='LearnCard'>
-                            <h1>DEEP UI</h1>
-                            <h5>DeepUI is an innovative application where the UI color dynamically changes based on the user's facial expressions.</h5>
-                            <h4 id='AlumniContactBtn'><img id='projectimg' src={git} alt=''></img>Download</h4>
+                            <h4 id='AlumniContactBtn'>View</h4>
                         </div>
                     </div>
                 </div>
