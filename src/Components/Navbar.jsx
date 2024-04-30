@@ -20,7 +20,7 @@ const Navbar = () => {
                         <Link className='Link' to="/"><img id='Logo' src={Logo} alt="Logo" /></Link>
                         <div id='NavContent'>
                         <Link className='Link' to="/"><h5 id='NavItem'>Home</h5></Link>
-                            <Link className='Link' to="/Achivements"><h5 id='NavItem'>Achivements</h5></Link>
+                            <Link className='Link' to="/Achievements"><h5 id='NavItem'>Achivements</h5></Link>
                             <Link className='Link' to="/Alumni"><h5 id='NavItem'>Alumni</h5></Link>
                             <h5 id='NavItem'>Contact</h5>
                             <Link className='Link' to="/Learn"><h5 id='NavItem'>Learn</h5></Link>
@@ -51,7 +51,7 @@ const Navbar = () => {
                     </div>
                     <div id='sideBarContainer'>
                     <Link className='Link' to="/"><h5 id='SideItem' onClick={e => (setNavControl(false))}>Home</h5></Link>
-                        <Link className='Link' to="/Achivements"><h5 id='SideItem' onClick={e => (setNavControl(false))}>Achivements</h5></Link>
+                        <Link className='Link' to="/Achievements"><h5 id='SideItem' onClick={e => (setNavControl(false))}>Achivements</h5></Link>
                         <Link className='Link' to="/Alumni"><h5 id='SideItem' onClick={e => (setNavControl(false))}>Alumni</h5></Link>
                         <h5 id='SideItem' onClick={e => (setNavControl(false))}>Contact</h5>
                         <Link className='Link' to="/learn"><h5 id='SideItem' onClick={e => (setNavControl(false))}>Learn</h5></Link>

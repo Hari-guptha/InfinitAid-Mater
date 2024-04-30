@@ -12,7 +12,7 @@ import { Box } from '@mui/material'
 const Home = () => {
     return (
         <>
-            <Box sx={{ display: { sm: "block", xs: "none" } }} style={{ margin: "5% 5%" }}>
+            <Box id="homeMainContainer" sx={{ display: { sm: "block", xs: "none" } }} style={{ margin: "5% 5%" }}>
                 <div id='HomeTopSection'>
                     <div style={{ display: "flex", flexDirection: "column", flexWrap: "wrap" }}>
                         <h1 id='HomeTitle'>WELCOME TO INFINITAID</h1>
