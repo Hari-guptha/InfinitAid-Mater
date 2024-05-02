@@ -88,7 +88,7 @@ const Learn = () => {
                         </div>
 
                         <div style={{ marginTop: "30px" }}>
-                            <h5>type</h5>
+                            <h5 style={{fontWeight:"500"}}>Type</h5>
                             <div style={{ display: "flex", marginTop: "40px", justifyContent: "space-between" }}>
                                 <h5 id='fbtntype'>Video</h5>
                                 <h5 id='fbtntype'>Pdf</h5>

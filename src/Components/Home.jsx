@@ -8,6 +8,7 @@ import Job from '../assets/img/icons/002-briefcase.svg'
 import Project from '../assets/img/icons/022-personal-computer.svg'
 import Play from '../assets/img/icons/Play.svg'
 import { Box } from '@mui/material'
+import { Link } from 'react-router-dom'
 
 const Home = () => {
     return (
@@ -21,6 +22,7 @@ const Home = () => {
                             <h5 id='Button1'>Join</h5>
                         </div>
                     </div>
+                    <Link to='/Event'>
                     <div id='EventsSection'>
                         <h4>Events and Hackathon</h4>
                         <img id='EventHomeImg' src={Event} alt="Event" />
@@ -28,6 +30,7 @@ const Home = () => {
                             <img id='Redirect-icon' src={Redirect} alt="redirect" />
                         </div>
                     </div>
+                    </Link>
                 </div>
                 <div id='HomeBottomSection'>
                     <div id='HomeBottomSection1'>
@@ -78,6 +81,7 @@ const Home = () => {
                             </div>
                         </div>
                     </div>
+                    <Link to='/Event'>
                     <div id='EventsSection' style={{ marginTop: "20%", marginLeft: "0px", height: "fit-content",padding:"10px" }}>
                         <h4>Events and Hackathon</h4>
                         <img id='EventHomeImg' src={Event} alt="Event" />
@@ -85,6 +89,7 @@ const Home = () => {
                             <img id='Redirect-icon' src={Redirect} alt="redirect" />
                         </div>
                     </div>
+                    </Link>
                 </div>
                 <div id='HomeBottomSection2' style={{ flexDirection: "row", marginTop: "20%" }} >
                         <div id='Homecard' >
