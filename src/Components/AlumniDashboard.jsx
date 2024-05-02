@@ -29,22 +29,16 @@ const StyledTableRow = styled(TableRow)(({ theme }) => ({
     },
 }));
 
-function createData(field, link) {
-    return { field, link };
+function createData(Name, Company ,Batch ,Content ,imglink,Linkdin) {
+    return { Name, Company ,Batch ,Content ,imglink,Linkdin};
 }
 
 const initialRows = [
-    createData('AML', "https://mui.com/material-ui/react-table/"),
-    createData('BML', "https://mui.com/material-ui/react-table/"),
-    createData('DSA', "https://mui.com/material-ui/react-table/"),
-    createData('Students Achivements', "53"),
-    createData('Placed Students', "42"),
-    createData('Students Projects', "32"),
-
-
+    createData("Hari Guptha","Bar.ai","2020", "asdasnd as das das d asd asd as d  zc c c d ddwe",'http://localhost:5173/src/assets/img/appathon.png',"link"),
+    createData("Hari Guptha","Bar.ai","2020", "asdasnd as das das d asd asd as d  zc c c d ddwe",'http://localhost:5173/src/assets/img/appathon.png',"link"),
 ];
 
-const HomeDashBoard = () => {
+const AlumniDashBoard = () => {
     const [tableview, setTableview] = useState(false);
     const [rows, setRows] = useState(initialRows);
 
@@ -68,13 +62,19 @@ const HomeDashBoard = () => {
         <>
             {tableview && (
                 <div style={{ display: "flex", justifyContent: "center" }}>
-                    <form id='popupbox' style={{display:"flex",flexDirection:"column",rowGap:"20px"}}>
+                    <form id='popupbox'>
                         <div style={{ display: "flex", justifyContent: "space-between" }}>
-                            <h5 id='popuptitle'>Home</h5>
+                            <h5 id='popuptitle'>Alumni</h5>
                             <img id='clsbtn' src={Close} alt="close" onClick={handleCloseForm} />
                         </div>
-                        <input type="text" placeholder='Enter the field' />
-                        <input type="text" placeholder='Enter the Value' />
+                        <div id="formscroll">   
+                        <input type="text" placeholder='Enter the Name' />
+                        <input type="text" placeholder='Enter the Company' />
+                        <input type="text" placeholder='Enter the Batch' />
+                        <input type="text" placeholder='Enter the Content' />
+                        <input type="text" placeholder='Enter the Image Link' />
+                        <input type="text" placeholder='Enter the Linkdin' />
+                        </div>
                         <div style={{ display: "flex", justifyContent: "center" }}>
                             <h5 id='submitbtn' onClick={handleCloseForm} >Submit</h5>
                         </div>
@@ -87,20 +87,28 @@ const HomeDashBoard = () => {
                     <Table sx={{ width: "90%" }} aria-label="customized table">
                         <TableHead>
                             <TableRow>
-                                <StyledTableCell>Field</StyledTableCell>
-                                <StyledTableCell align="left">Value</StyledTableCell>
-                                <StyledTableCell style={{borderBottomColor:"transparent"}} align="right">
-                            
+                                <StyledTableCell align="left">Name</StyledTableCell>
+                                <StyledTableCell align="left">Company</StyledTableCell>
+                                <StyledTableCell align="left">Batch</StyledTableCell>
+                                <StyledTableCell align="left">Content</StyledTableCell>
+                                <StyledTableCell align="left">Image Link</StyledTableCell>
+                                <StyledTableCell align="left">Linkdin</StyledTableCell>
+                                <StyledTableCell align="right">
+                                    <h4 onClick={handleAddClick} id="taddbtn">Add</h4>
                                 </StyledTableCell>
                             </TableRow>
                         </TableHead>
                         <TableBody>
                             {rows.map((row) => (
-                                <StyledTableRow key={row.field}>
+                                <StyledTableRow key={row.Name}>
                                     <StyledTableCell component="th" scope="row">
-                                        {row.field}
+                                        {row.Name}
                                     </StyledTableCell>
-                                    <StyledTableCell align="left">{row.link}</StyledTableCell>
+                                    <StyledTableCell align="left">{row.Company}</StyledTableCell>
+                                    <StyledTableCell align="left">{row.Batch}</StyledTableCell>
+                                    <StyledTableCell align="left">{row.Content}</StyledTableCell>
+                                    <StyledTableCell align="left">{row.imglink}</StyledTableCell>
+                                    <StyledTableCell align="left">{row.Linkdin}</StyledTableCell>
                                     <StyledTableCell align="right">
                                         <div id="ticons">
                                             <img
@@ -127,4 +135,4 @@ const HomeDashBoard = () => {
     )
 }
 
-export default HomeDashBoard
+export default AlumniDashBoard

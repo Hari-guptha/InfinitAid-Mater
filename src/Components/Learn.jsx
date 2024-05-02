@@ -4,7 +4,7 @@ import git from '../assets/img/icons/git.png'
 const Learn = () => {
     return (
         <>
-            <div style={{ margin: "0px 5%" }} >
+            <div style={{ margin: "100px 5%" }} >
                 <h1 id='PageTitle'>Learn</h1>
                 <div id='LearnMain'>
                     <div id='Learnfilter'>

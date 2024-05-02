@@ -64,7 +64,7 @@ const EventDashBoard = () => {
                 <div style={{ display: "flex", justifyContent: "center" }}>
                     <form id='popupbox'>
                         <div style={{ display: "flex", justifyContent: "space-between" }}>
-                            <h5 id='popuptitle'>Edit Data</h5>
+                            <h5 id='popuptitle'>Event</h5>
                             <img id='clsbtn' src={Close} alt="close" onClick={handleCloseForm} />
                         </div>
                         <div id="formscroll">   
@@ -76,7 +76,7 @@ const EventDashBoard = () => {
                         <input type="text" placeholder='Enter the Link' />
                         </div>
                         <div style={{ display: "flex", justifyContent: "center" }}>
-                            <h5 id='submitbtn'>Submit</h5>
+                            <h5 id='submitbtn' onClick={handleCloseForm} >Submit</h5>
                         </div>
                     </form>
                 </div>

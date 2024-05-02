@@ -1,7 +1,6 @@
 * {
     margin: 0px;
     padding: 0px;
-
 }
 
 #NavBar {
@@ -32,6 +31,7 @@
 
 #NavFirstRow {
     display: flex;
+    width: 100%;
     flex-direction: row;
 }
 
@@ -238,6 +238,7 @@
 }
 
 #playitem {
+    cursor: pointer;
     border: 2px solid #000000;
     border-radius: 50px;
     text-align: center;
@@ -374,12 +375,13 @@
 #AlumniInnerCardChild h1 {
     width: 80%;
     overflow-wrap: break-word;
+    overflow: hidden;
     font-size: 40px;
     line-height: 100%;
 }
 
 #AlumniInnerCardChild h5 {
-    font-weight: 700;
+    font-weight: 500;
 }
 
 #AlumniInnerCardChild h4 {
@@ -387,6 +389,7 @@
     font-size: 15px;
     line-height: 120%;
     font-weight: 300;
+    overflow: hidden;
 }
 
 #AlumniInnerCardChild div {
@@ -395,6 +398,7 @@
 }
 
 #AlumniContactBtn {
+    cursor: pointer;
     text-align: center;
     border-radius: 5px;
     background-color: black;
@@ -410,7 +414,7 @@
 }
 
 #filterBox {
-    margin: 20px 0;
+    margin: 20px;
     display: flex;
     justify-content: space-between;
     width: 100%;
@@ -439,7 +443,10 @@
     color: white;
     margin: 30px 0px;
     padding: 10px;
+    cursor: pointer;
     font-weight: 300;
+    width: 100px;
+    text-align: center;
 }
 
 /* ----------------------Achivement---------------------- */
@@ -484,7 +491,7 @@
     background-color: black;
     padding: 10px 20px 1px 20px;
     border-radius: 50px;
-    margin-top: 2%;
+    margin-top: 1%;
 }
 
 #AchiveCardInner h4 {
@@ -612,13 +619,17 @@
     font-weight: 400;
 }
 
+#LearnCard h6{
+    font-weight: 400;
+}
 
 #fBtn1 {
     background-color: #000000;
     color: white;
-    padding: 10px;
+    cursor: pointer;
+    padding: 10px 25%;
     text-align: center;
-    width: 200px;
+    width: fit-content;
     font-size: 15px;
 }
 
@@ -630,12 +641,13 @@
 }
 
 #fBtn2 {
+    cursor: pointer;
     background-color: #ffffff;
     color: rgb(0, 0, 0);
     padding: 10px;
     text-align: center;
     font-weight: 400;
-    width: 130px;
+    width: fit-content;
     margin: 10px 0 0 20px;
 }
 
@@ -649,6 +661,7 @@
 }
 
 #fbtntype{
+    cursor: pointer;
     background-color: #000000;
     padding: 10px 20px;
     width: 60px;
@@ -721,6 +734,7 @@
 }
 
 #ticon{
+    cursor: pointer;
     width: 20px;
     height: 20px;
 }
@@ -768,11 +782,13 @@
 }
 #clsbtn{
     width: 20px;
+    cursor: pointer;
     height: 20px;
     margin-bottom: 50px;
 }
 
 #submitbtn{
+    cursor: pointer;
     background-color: #000000;
     width: fit-content;
     color: white;
@@ -784,6 +800,53 @@
 #popupbox input{
     padding: 10px 300px 10px 20px;
 }
+
+
+.css-1q1u3t4-MuiTableRow-root{
+    background-color: #000000;
+}
+
+
+#Adminlogin{
+    background-color: #386BDF;
+    padding: 5% 10%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    text-align: center;
+    margin: 10% 0px;
+    border-radius: 20px;
+}
+
+#Adminlogin h4{
+color: white;
+font-size: 20px;
+font-weight: 400;
+}
+
+#Adminlogin h5{
+    color: white;
+    font-size: 15px;
+    background-color: #000000;
+    padding: 10px 30px;
+    font-weight: 400;
+    }
+    
+
+#Adminlogin input{
+    background-color: white;
+    padding: 10px 100px 10px 30px;
+}
+
+
+input{
+    border-color: transparent;
+}
+
+input:focus{
+    outline: #000000    ;
+}
+
 
 @media only screen and (max-width:600px) {
     #Footer {
@@ -819,6 +882,10 @@
 
     #AchiveCardInnerchild {
         flex-wrap: wrap;
+    }
+    #searchfilterapp{
+        flex-wrap: wrap;
+        row-gap: 0px;
     }
 
     #EventTitle {
@@ -907,6 +974,20 @@
         height: fit-content;
     }
     #Search{
-        width: 50% !important;
+        width: 100% !important;
+        margin: 10px 0px 10px 10px;
+    }
+    #SearchBtn{
+        height: fit-content;
+        margin: 10px 0px;
+        padding: 10px !important;
+    }
+    #filterBox2{
+        flex-wrap: wrap;
+        height: fit-content;    
+    }
+    #HomeTitle{
+        width: 100% !important;
+        overflow: hidden !important;
     }
 }

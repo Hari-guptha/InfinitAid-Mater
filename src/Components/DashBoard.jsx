@@ -1,4 +1,3 @@
-import HomeDashBoard from "./HomeDashBoard";
 import img1 from '../assets/img/logo.png';
 import { Link, Outlet, Route, Routes } from "react-router-dom";
 
@@ -8,13 +7,12 @@ const DashBoard = () => {
       <div id="sidebar">
         <img id='sidebarlogo' src={img1} alt="logo" />
         <div id='sideitems'>
-          <Link to='/Admin/EditHome' id='sideitem'>Home</Link>
+          <Link to='/Admin' id='sideitem'>Home</Link>
           <Link to='/Admin/EditEvent' id='sideitem'>Events</Link>
-          <h5 id='sideitem'>Alumni</h5>
-          <h5 id='sideitem'>Achievements</h5>
-          <h5 id='sideitem'>Projects</h5>
-          <h5 id='sideitem'>Learn</h5>
-          <h5 id='sideitem'>News</h5>
+          <Link to='/Admin/EditAlumni' id='sideitem'>Alumni</Link>
+          <Link to='/Admin/AchivementsDashBoard' id='sideitem'>Achievements</Link>
+          <Link to='/Admin/ProjectDashboard'  id='sideitem'>Projects</Link >
+          <Link to='/Admin/LearnDashboard'  id='sideitem'>Learn</Link >
         </div>
       </div>
       <div style={{ width: "100%" }}>

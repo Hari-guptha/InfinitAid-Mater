@@ -5,7 +5,7 @@ import EventImg3 from '../assets/img/chatathon.png'
 
 const Event = () => {
     return (
-        <div style={{ margin: "0px 5%" }} >
+        <div style={{ margin: "100px 5%" }} >
             <h1 id='PageTitle'>Event</h1>
             <div id='filterBox2'>
                 <div id='SearchCont'>
@@ -13,7 +13,12 @@ const Event = () => {
                     <h5 id='SearchBtn'>Search</h5>
                 </div>
                 <div id='SearchCont'>
-                    <input id='Search' type="text" placeholder='Enter the domain Name' />
+                    <input list='browsers' id='Search' type="text" placeholder='Enter the domain Name' />
+                    <datalist id="browsers">
+                        <option value="ML"></option>
+                        <option value="ML"></option>
+                        <option value="ML"></option>
+                    </datalist>
                     <h5 id='SearchBtn'>Set</h5>
                 </div>
             </div>

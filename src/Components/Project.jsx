@@ -3,7 +3,7 @@ import git from '../assets/img/icons/git.png'
 
 const Project = () => {
     return (
-        <div style={{ margin: "0px 5%" }} >
+        <div style={{ margin: "100px 5%" }} >
             <h1 id='PageTitle'>
                 Projects
             </h1>
@@ -13,8 +13,13 @@ const Project = () => {
                     <h5 id='SearchBtn'>Search</h5>
                 </div>
                 <div id='SearchCont'>
-                    <input id='Search' type="text" placeholder='Enter the domain Name' />
+                    <input id='Search' list='Domain' type="text" placeholder='Enter the domain Name' />
                     <h5 id='SearchBtn'>Set</h5>
+                    <datalist id="Domain">
+                        <option value="ML"></option>
+                        <option value="ML"></option>
+                        <option value="ML"></option>
+                    </datalist>
                 </div>
             </div>
             <div id='ProjectCards'>

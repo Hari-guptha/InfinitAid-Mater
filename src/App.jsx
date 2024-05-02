@@ -11,6 +11,11 @@ import Learn from './Components/Learn';
 import DashBoard from './Components/DashBoard';
 import HomeDashBoard from './Components/HomeDashBoard';
 import EventDashBoard from './Components/EventDashBoard';
+import AlumniDashBoard from './Components/AlumniDashboard';
+import AchivementsDashBoard from './Components/AchivementsDashboard';
+import ProjectDashboard from './Components/ProjectDashboard';
+import LearnDashboard from './Components/LearnDashboard';
+import AdminLogin from './Components/AdminLogin';
 
 const App = () => {
   const location = useLocation();
@@ -23,8 +28,12 @@ const App = () => {
       {isAdminRoute ? (
         <Routes>
           <Route path="/Admin" element={<DashBoard />} >
-            <Route path="EditHome" element={<HomeDashBoard />} />
+            <Route path="/Admin" element={<HomeDashBoard />} />
             <Route path="EditEvent" element={<EventDashBoard />} />
+            <Route path="EditAlumni" element={<AlumniDashBoard />} />
+            <Route path="AchivementsDashBoard" element={<AchivementsDashBoard />} />
+            <Route path="ProjectDashboard" element={<ProjectDashboard />} />
+            <Route path="LearnDashboard" element={<LearnDashboard />} />
           </Route>
         </Routes>
       ) : (
@@ -37,6 +46,12 @@ const App = () => {
             <Route path="/Achievements" element={<Achievements />} />
             <Route path="/Projects" element={<Project />} />
             <Route path="/Learn" element={<Learn />} />
+            <Route path="/AdminLogin" element={<AdminLogin />} />
+            <Route path="*" element={<>
+              <div style={{ textAlign: 'center', padding: '50px',margin:"20% 0" }}>
+                <h2>Something went wrong.</h2>
+                <p>The page encountered an error and cannot be displayed.</p>
+              </div></>} />
           </Routes>
           <Footer />
         </>

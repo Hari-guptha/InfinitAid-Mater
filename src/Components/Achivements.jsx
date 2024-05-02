@@ -6,7 +6,7 @@ import Youtube from '../assets/img/icons/youtube.png'
 
 const Achivements = () => {
     return (
-        <div style={{ margin: "0px 5%" }} >
+        <div style={{ margin: "100px 5%" }} >
             <h1 id='PageTitle'>Achivements</h1>
             <div id='AchiveCards'>
                 <div id='achiveCard'>
